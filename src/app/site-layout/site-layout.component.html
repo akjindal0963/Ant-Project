@@ -1,0 +1,21 @@
+<div class="site-shell">
+  <header class="site-header">
+    <a class="site-brand" routerLink="/" fragment="top" aria-label="A1 Pest Control home"><span
+        class="brand-mark">A<span>1</span></span><span class="brand-name">TERMITE &<br>PEST CONTROL</span></a>
+    <nav aria-label="Main navigation">
+      <a routerLink="/" fragment="top">Home</a>
+      <div class="services-nav"><a routerLink="/" fragment="services">Services</a>
+      </div>
+      <a routerLink="/" fragment="residential">Residential</a><a routerLink="/" fragment="commercial">Commercial</a>
+    </nav>
+    <div class="header-actions"><a class="header-phone" href="tel:+61406161308">0406 161 308</a><a class="header-quote"
+        [routerLink]="quotePath" [fragment]="quoteFragment">Get a free quote <span>↗</span></a></div>
+  </header>
+  <router-outlet />
+  <footer class="site-footer"><a class="site-brand" routerLink="/" fragment="top"
+      aria-label="A1 Pest Control home"><span class="brand-mark">A<span>1</span></span><span class="brand-name">TERMITE
+        &<br>PEST CONTROL</span></a>
+    <p>Melbourne pest control for homes & businesses.</p><a href="tel:+61406161308">0406 161 308</a><small>© 2026 A1
+      Termite & Pest Control</small>
+  </footer>
+</div>

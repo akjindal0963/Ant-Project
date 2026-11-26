@@ -1,0 +1,146 @@
+<main class="ants-page">
+  <section class="ants-hero" id="top">
+    <div class="ants-copy"><a class="crumb" routerLink="/">Home</a><span class="slash">/</span><a class="crumb"
+        routerLink="/" fragment="services">Services</a><span class="slash">/</span><span>Ant control</span>
+      <div class="eyebrow">TARGETED ANT CONTROL · MELBOURNE</div>
+      <h1>Find the trail.<br><em>Stop the cycle.</em></h1>
+      <p>We find where ants are coming from, explain what’s working, and treat the problem at its source.</p>
+      <div class="actions"><a class="primary" href="#ant-quote" (click)="scrollToQuote($event)">Get a free quote <span>↗</span></a><a class="call"
+          href="tel:+61406161308">Call 0406 161 308</a></div>
+      <div class="starting"><span>Residential treatments</span><b>from $180</b><small>Final quote agreed before
+          treatment.</small></div>
+    </div>
+    <div class="ant-visual" aria-label="Illustration of an ant trail" role="img">
+      <div class="halo"></div>
+      <div class="trail-line"></div><span class="ant ant-a"><i></i></span><span class="ant ant-b"><i></i></span><span
+        class="ant ant-c"><i></i></span><span class="ant ant-d"><i></i></span>
+      <div class="visual-note"><span>01</span>
+        <div><b>Every trail is a clue.</b><small>We find what’s attracting them.</small></div>
+      </div>
+      <div class="visual-label">A1 · ANT INSIGHT</div>
+    </div>
+  </section>
+  <div class="proof">
+    <div><b>Look closer</b><span>Find entry points and nests</span></div>
+    <div><b>Choose with care</b><span>Species-led treatment</span></div>
+    <div><b>Know what’s next</b><span>Clear aftercare advice</span></div>
+  </div>
+  <section class="why-ants">
+    <div class="section-title"><span class="eyebrow">A LITTLE ABOUT THE TRAIL</span>
+      <h2>Why do ants<br>keep coming back?</h2>
+    </div>
+    <div class="why-copy">
+      <p class="lead">The ants you see are only part of the colony.</p>
+      <p>Ants travel between food, water and nesting places. Spraying a visible trail can disrupt it without reaching
+        the source. We look at the whole picture before recommending treatment.</p>
+      <div class="clue-list">
+        <div><span>01</span>
+          <p><b>Follow their route</b><small>Where they enter, travel and gather.</small></p>
+        </div>
+        <div><span>02</span>
+          <p><b>Identify the species</b><small>Different ants call for different methods.</small></p>
+        </div>
+        <div><span>03</span>
+          <p><b>Address the attractants</b><small>Food, moisture and gaps around the home.</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ant-process">
+    <div class="section-title"><span class="eyebrow">STRAIGHTFORWARD FROM THE START</span>
+      <h2>A clear plan, in three steps.</h2>
+    </div>
+    <div class="steps">
+      <article><span>01</span>
+        <h3>Inspect</h3>
+        <p>We check trails, entry points and likely nesting areas.</p>
+      </article>
+      <article><span>02</span>
+        <h3>Explain</h3>
+        <p>You’ll understand the treatment and price before we start.</p>
+      </article>
+      <article><span>03</span>
+        <h3>Treat & advise</h3>
+        <p>Targeted treatment, with practical aftercare for your home.</p>
+      </article>
+    </div>
+  </section>
+  <section class="species">
+    <div class="species-heading">
+      <div><span class="eyebrow">WHO’S MAKING THEMSELVES AT HOME?</span>
+        <h2>Meet the usual suspects.</h2>
+      </div>
+      <p>Melbourne homes commonly see a few different ant species. Correct identification helps us choose the right
+        approach.</p>
+    </div>
+    <div class="species-grid">
+      <article class="species-card">
+        <div class="species-art black"><span>01 / INDOORS</span><i class="ant-icon"></i></div>
+        <div>
+          <h3>Black house ants</h3>
+          <p>Often follow food and water into kitchens, pantries and bathrooms.</p>
+        </div>
+      </article>
+      <article class="species-card">
+        <div class="species-art brown"><span>02 / GARDENS</span><i class="ant-icon"></i></div>
+        <div>
+          <h3>Coastal brown ants</h3>
+          <p>Common in lawns and garden beds, sometimes nesting near paving.</p>
+        </div>
+      </article>
+      <article class="species-card">
+        <div class="species-art argentine"><span>03 / TRAILS</span><i class="ant-icon"></i></div>
+        <div>
+          <h3>Argentine ants</h3>
+          <p>Can form connected colonies and persistent trails around buildings.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="ant-faq">
+    <div><span class="eyebrow">QUICK ANSWERS</span>
+      <h2>Good to know.</h2>
+      <p>Not sure what you’re seeing? We’re happy to talk it through.</p><a href="tel:+61406161308">Call 0406 161 308
+        ↗</a>
+    </div>
+    <div class="questions">
+      <details open>
+        <summary>How much does ant treatment cost?<span>＋</span></summary>
+        <p>Residential ant treatments start from $180. Your final quote depends on the property and treatment needed.
+        </p>
+      </details>
+      <details>
+        <summary>How soon should I expect results?<span>＋</span></summary>
+        <p>It varies by species and treatment. We’ll explain what to expect and when to contact us.</p>
+      </details>
+      <details>
+        <summary>What about children and pets?<span>＋</span></summary>
+        <p>Tell us about any children, pets or special concerns so we can give you the right preparation and re-entry
+          advice.</p>
+      </details>
+    </div>
+  </section>
+  <section class="ant-quote" id="ant-quote">
+    <div><span class="eyebrow">LET’S FOLLOW THAT TRAIL</span>
+      <h2>Tell us what’s<br>happening.</h2>
+      <p>We’ll help you find the right next step for your Melbourne home or business.</p><a href="tel:+61406161308">0406
+        161 308</a>
+    </div>
+    <form (ngSubmit)="submitQuote()">
+      <div class="form-intro"><span class="form-icon">✳</span>
+        <div>
+          <h3>Request a free quote</h3>
+          <p>We’ll be in touch to discuss your ant problem.</p>
+        </div>
+      </div>
+      <div class="form-fields"><label>Your name<input name="name" [(ngModel)]="form.name" required
+            placeholder="Alex Smith"></label><label>Phone<input name="phone" [(ngModel)]="form.phone" required
+            type="tel" placeholder="0400 123 456"></label><label class="full">Email <small>(optional)</small><input
+            name="email" [(ngModel)]="form.email" type="email" placeholder="you@example.com"></label><label
+          class="full">Where are you seeing ants?<textarea name="message" [(ngModel)]="form.message" rows="2"
+            placeholder="Kitchen, garden, or somewhere else?"></textarea></label></div><button type="submit">{{
+        submitted ? 'Thanks — we’ll be in touch' : 'Request my free quote' }} <span>↗</span></button><small
+        class="privacy" [hidden]="submitted">Your details are only used to respond to your enquiry.</small>
+    </form>
+  </section>
+</main>
